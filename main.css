@@ -1,0 +1,68 @@
+
+
+html,body{
+margin: 0;
+}
+
+.wrap{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 600px;
+    margin: 100px auto 0;
+}
+
+.wrap .title{
+
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+
+}
+
+
+.wrap .title h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif 
+}
+
+.wrap .list{
+
+    width: 100%;
+    height: 450px;
+    background-color: whitesmoke;
+
+}
+
+.text-input{
+    display: block;
+    width: 392px;
+    height: 50px;
+}
+
+.list-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: skyblue;
+    padding: 20px;
+
+}
+
+.btnbg{
+
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+
+}
+
+.btnbg .material-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+}
+
