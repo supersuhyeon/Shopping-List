@@ -36,11 +36,11 @@ viewText.appendChild(span)
 viewIcon.appendChild(i)
 
 viewIcon.addEventListener('click', (event)=>{
-    // console.log(event.target)
-    // console.log(event.target.parentNode)
-    // console.log(event.target.parentNode.parentNode)
-    const removeIcon = event.target.parentNode.parentNode
-    todoList.removeChild(removeIcon)
+    // // console.log(event.target)
+    // // console.log(event.target.parentNode)
+    // // console.log(event.target.parentNode.parentNode)
+    // const removeIcon = event.target.parentNode.parentNode
+    todoList.removeChild(listSection);
 })
 
 // 2. scroll to a new elememt created
